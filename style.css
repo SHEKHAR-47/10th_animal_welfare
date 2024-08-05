@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Secular One', sans-serif;
+}
+body{
+    background-color: aqua;
+}
+ul{
+    display: flex;
+    justify-content: flex-end;
+}
+
+ul li{
+    list-style: none;
+    padding: 15px 30px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 18px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.header h1{
+    padding: 20px;
+    font-size:3em;
+    letter-spacing:5px;
+    color: red;
+    text-shadow: 0px 2px 3px rgb(50, 50, 50)
+}
+
+
+.header{
+    /* background-image: url(https://images.pexels.com/photos/58997/pexels-photo-58997.jpeg?auto=compress&cs=tinysrgb&w=600); */
+    /* background-image: url(https://th.bing.com/th?id=OSK.HEROP2jglqu0MdC5-xO-bjZc8jMKDK42l08GIxNwIEcqi7I&w=312&h=200&c=15&rs=2&o=6&oif=webp&dpr=1.3&pid=SANGAM); */
+    background-image: url(https://th.bing.com/th?id=OIP.9NT_KhzzgzeUinRqvVGNbAHaEo&w=316&h=197&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2);
+    
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+    margin-left: 10%;
+    margin-right: 10%;
+    justify-content: center;
+    align-items: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.aboutus_section{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+}
+
+.aboutus_section img{
+    width: 35%;
+    border-radius: 5px;
+}
+.aboutus_content{
+    padding-left: 30px;
+}
+
+.aboutus_content h1{
+    font-size: 2.5rem;
+    color: rgb(203, 45, 45);
+    margin-bottom: 1px solid  grey;
+
+}
+
+.aboutus_content p{
+    line-height: 40px;
+    font-family: 'Segoe UI';
+    font-size: 18px;
+
+}
+
+
+.form_section {
+    width: 35%;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    background: linear-gradient(to right, rgb(46, 46, 253), rgb(59, 186, 236), rgb(208, 243, 255));
+    padding: 20px;
+}
+ 
+.form_section h2 {
+    padding: 5px 0;
+    color: white;
+    border-radius: 5px;
+}
+ 
+
+ 
